@@ -3,7 +3,8 @@
 ## Program
 
 - [ ] Install checking
-- [ ] Python basics with Jupyter
-- [ ] Numerical stuff with Numpy
-- [ ] Basic plotting with Matplotlib
-- [ ] Files and data processing with Pandas
+- [ ] Python basics with `jupyter`
+- [ ] Numerical stuff with `numpy`
+- [ ] Basic plotting with `matplotlib`
+- [ ] Files and data processing with `pandas`
+- [ ] Speeding up your code with `numba`
