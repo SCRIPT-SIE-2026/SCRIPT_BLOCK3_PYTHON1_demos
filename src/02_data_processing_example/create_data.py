@@ -18,12 +18,17 @@ def create_data(n_points=101):
     data = pd.DataFrame(data_dic)
     return data
 
-data = create_data()
+N_samples = 12
+for s in range(N_samples):
+    data = create_data()
+    file_name = "data_" + str(s).zfill(2) + ".csv"
+    data.to_csv(file_name, index=False)
 
 
-plt.figure()
-plt.plot(data.x, data.y, "k-", label="solution")
-plt.plot(data.x, data.yn, "or", label="solution + noise")
-plt.grid()
-plt.legend()
-plt.savefig("raw_data.png")
+if False: # turn to True if you want to plot
+    plt.figure()
+    plt.plot(data.x, data.y, "k-", label="solution")
+    plt.plot(data.x, data.yn, "or", label="solution + noise")
+    plt.grid()
+    plt.legend()
+    plt.savefig("raw_data.png")

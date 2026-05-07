@@ -3,3 +3,4 @@ src/01_basics_with_jupyter/.ipynb_checkpoints/fun_with_jupyter-checkpoint.ipynb
 src/01_basics_with_jupyter/my_fig.png
 .vscode/settings.json
 src/02_data_processing_example/raw_data.png
+src/02_data_processing_example/data*.csv
